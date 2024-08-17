@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap");
+
+:root {
+  --BackgroundImage: url(./assets/images/bg-desktop-dark.jpg);
+  --BrightBlue: hsl(220, 98%, 61%);
+  --Check1: hsl(192, 100%, 67%);
+  --Check2: hsl(280, 87%, 65%);
+  --LightGrayishBlue: hsl(233, 11%, 84%);
+  --MainBackground: hsl(235, 21%, 11%);
+  --SecondaryBackground: hsl(235, 24%, 19%);
+  --Text: hsl(234, 39%, 85%);
+  --DarkGrayishBlue: hsl(233, 11%, 52%);
+  --BorderColor: hsl(237, 14%, 26%);
+  --BorderBottom: hsl(237, 14%, 26%);
+}
+
+body[data-theme="light"] {
+  --SecondaryBackground: hsl(0, 0%, 98%);
+  --BackgroundImage: url(./assets/images/bg-desktop-light.jpg);
+  --Text: hsl(237, 14%, 26%);
+  --MainBackground: hsl(0, 0%, 98%);
+  --DarkGrayishBlue: hsl(236, 9%, 61%);
+  --BorderColor: hsl(233, 11%, 84%);
+  --BorderBottom: hsl(236, 33%, 92%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
