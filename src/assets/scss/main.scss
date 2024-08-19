@@ -80,6 +80,7 @@ body {
       background-color: var(--SecondaryBackground);
       ul {
         li {
+          touch-action: none;
           display: flex;
           align-items: center;
           padding: 6px;
@@ -146,7 +147,7 @@ body {
           &:hover {
             color: var(--SecondaryHover);
           }
-          
+
           &.active {
             cursor: default;
             color: var(--BrightBlue);
