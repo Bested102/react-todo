@@ -5,11 +5,11 @@
   --BrightBlue: hsl(220, 98%, 61%);
   --Check1: hsl(192, 100%, 67%);
   --Check2: hsl(280, 87%, 65%);
-  --LightGrayishBlue: hsl(233, 11%, 84%);
+  --SecondaryHover: rgb(229, 229, 241);
   --MainBackground: hsl(235, 21%, 11%);
   --SecondaryBackground: hsl(235, 24%, 19%);
   --Text: hsl(234, 39%, 85%);
-  --DarkGrayishBlue: hsl(233, 11%, 52%);
+  --SecondaryText: hsl(233, 11%, 52%);
   --BorderColor: hsl(237, 14%, 26%);
   --BorderBottom: hsl(237, 14%, 26%);
 }
@@ -19,7 +19,8 @@ body[data-theme="light"] {
   --BackgroundImage: url(./assets/images/bg-desktop-light.jpg);
   --Text: hsl(237, 14%, 26%);
   --MainBackground: hsl(0, 0%, 98%);
-  --DarkGrayishBlue: hsl(236, 9%, 61%);
+  --SecondaryHover: hsl(235, 19%, 35%);
+  --SecondaryText: hsl(236, 9%, 61%);
   --BorderColor: hsl(233, 11%, 84%);
   --BorderBottom: hsl(236, 33%, 92%);
 }

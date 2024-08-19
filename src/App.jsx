@@ -88,7 +88,7 @@ export default function App() {
   }
   function handleFilter(e, t) {
     document
-      .querySelectorAll(".filter span")
+      .querySelectorAll(".filter-mobile span")
       .forEach((s) => s.classList.remove("active"));
     e.target.classList.add("active");
     changeFilter(t);

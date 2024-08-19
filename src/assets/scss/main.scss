@@ -54,7 +54,7 @@ body {
       align-items: center;
       justify-content: flex-start;
       margin-block: 30px 15px;
-      .circle{
+      .circle {
         flex: 0 0 26px;
       }
       input {
@@ -64,12 +64,12 @@ body {
         outline: none;
         font-size: 18px;
         caret-color: var(--BrightBlue);
-        color: var(--LightGrayishBlue);
+        color: var(--Text);
         font-family: "Josefin Sans", sans-serif;
         flex: 1;
 
         &::placeholder {
-          color: var(--DarkGrayishBlue);
+          color: var(--SecondaryText);
         }
       }
     }
@@ -123,16 +123,12 @@ body {
             display: none;
             margin-inline: auto 20px;
             cursor: pointer;
-          }
-          &:hover {
-            .delete {
+            @media (pointer: coarse) {
               display: block;
             }
-            @media (pointer: coarse) {
-              .delete {
-                display: block;
-              }
-            }
+          }
+          &:hover .delete {
+            display: block;
           }
         }
       }
@@ -142,14 +138,15 @@ body {
         align-items: center;
         font-size: 15px;
         padding: 16px;
-        color: var(--DarkGrayishBlue);
+        color: var(--SecondaryText);
         cursor: default;
         span {
           cursor: pointer;
           transition: 0.2s;
           &:hover {
-            color: var(--LightGrayishBlueHover);
+            color: var(--SecondaryHover);
           }
+          
           &.active {
             cursor: default;
             color: var(--BrightBlue);
@@ -173,12 +170,12 @@ body {
       font-size: 16px;
       border-radius: 6px;
       background-color: var(--SecondaryBackground);
-      color: var(--DarkGrayishBlue);
+      color: var(--SecondaryText);
       span {
         cursor: pointer;
         transition: 0.2s;
         &:hover {
-          color: var(--LightGrayishBlueHover);
+          color: var(--SecondaryHover);
         }
         &.active {
           cursor: default;
@@ -194,7 +191,7 @@ body {
     margin: 24px auto 0;
     width: fit-content;
     text-align: center;
-    color: var(--DarkGrayishBlue);
+    color: var(--SecondaryText);
     font-size: 14px;
   }
 }
