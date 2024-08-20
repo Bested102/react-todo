@@ -141,6 +141,7 @@ body {
         padding: 16px;
         color: var(--SecondaryText);
         cursor: default;
+        user-select: none;
         span {
           cursor: pointer;
           transition: 0.2s;
@@ -162,6 +163,7 @@ body {
       }
     }
     .filter-mobile {
+      user-select: none;
       margin-top: 14px;
       display: flex;
       align-items: center;
